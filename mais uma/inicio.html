@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="CatBoss - Loja online de produtos para gatos. Brinquedos, caminhas, ração e muito mais!">
+  <meta name="keywords" content="gato, petshop, brinquedos, ração, caminha, arranhador">
+  <meta name="author" content="CatBoss">
+  <title>CatBoss 🐾 | Produtos para Gatos com Estilo</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">CatBoss</div>
+    <div class="search-box">
+      <input type="text" placeholder="Pesquisar...">
+    </div>
+    <div class="right-section">
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <img class="gatinho" src="gif/8bef1ca3a03aeedea57be5a02d6c2f9c.gif" alt="Gatinho fofo">
+    </div>
+  </header>
+
+  <!-- Carrossel -->
+  <div class="carousel-container">
+    <ul class="carousel-track" id="carouselTrack">
+      <img src="carossel/1.jpg" alt="Gato 1">
+      <img src="carossel/2.jpg" alt="Gato 2">
+      <img src="carossel/3.jpg" alt="Gato 3">
+      <img src="carossel/4.jpg" alt="Gato 4">
+      <img src="carossel/5.jpg" alt="Gato 5">
+      <img src="carossel/6.jpg" alt="Gato 6">
+      <img src="carossel/7.jpg" alt="Gato 7">
+      <img src="carossel/8.jpg" alt="Gato 8">
+      <img src="carossel/5.jpg" alt="Gato 9">
+      <img src="carossel/10.jpg" alt="Gato 10">
+    </ul>
+  </div>
+
+  <!-- Produtos -->
+  <section class="produtos" id="inicio">
+    <h2>Promoções da CatBoss 🐾</h2>
+    <div class="grid-produtos">
+      <div class="card"><img src="imagens/1.webp" alt="Arranhador Luxo"><h3>Arranhador Luxo</h3><p>De R$199,00 por R$149,00</p></div>
+      <div class="card"><img src="imagens/2.webp" alt="Caminha Fofinha"><h3>Caminha Fofinha</h3><p>30% OFF!</p></div>
+      <div class="card"><img src="imagens/3.webp" alt="Fonte de Água"><h3>Fonte de Água</h3><p>R$99,00 à vista</p></div>
+      <div class="card"><img src="imagens/4.webp" alt="Areia Perfumada"><h3>Areia Perfumada</h3><p>Compre 2, leve 3</p></div>
+      <div class="card"><img src="imagens/5.webp" alt="Brinquedos variados"><h3>Brinquedos variados</h3><p>Kit com 10 itens!</p></div>
+      <div class="card"><img src="imagens/6.webp" alt="Petisco natural"><h3>Petisco natural</h3><p>Apenas R$19,90</p></div>
+      <div class="card"><img src="imagens/7.webp" alt="Ração Premium"><h3>Ração Premium</h3><p>15% OFF</p></div>
+      <div class="card"><img src="imagens/8.webp" alt="Coleira Personalizada"><h3>Coleira Personalizada</h3><p>Com nome gravado</p></div>
+      <div class="card"><img src="imagens/9.jpg" alt="Túnel Divertido"><h3>Túnel Divertido</h3><p>R$59,90</p></div>
+      <div class="card"><img src="imagens/10.jpg" alt="Casinha Japonesa"><h3>Casinha Japonesa</h3><p>Nova coleção!</p></div>
+    </div>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="contato">
+    <h2 style="text-align: center; margin-top: 40px;">Fale Conosco 💌</h2>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
